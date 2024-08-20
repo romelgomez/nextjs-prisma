@@ -2,6 +2,60 @@
 # yarn lockfile v1
 
 
+"@biomejs/biome@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/biome/-/biome-1.8.3.tgz#3b5eecea90d973f71618aae3e6e8be4d2ca23e42"
+  integrity sha512-/uUV3MV+vyAczO+vKrPdOW0Iaet7UnJMU4bNMinggGJTAnBPjCoLEYcyYtYHNnUNYlv4xZMH6hVIQCAozq8d5w==
+  optionalDependencies:
+    "@biomejs/cli-darwin-arm64" "1.8.3"
+    "@biomejs/cli-darwin-x64" "1.8.3"
+    "@biomejs/cli-linux-arm64" "1.8.3"
+    "@biomejs/cli-linux-arm64-musl" "1.8.3"
+    "@biomejs/cli-linux-x64" "1.8.3"
+    "@biomejs/cli-linux-x64-musl" "1.8.3"
+    "@biomejs/cli-win32-arm64" "1.8.3"
+    "@biomejs/cli-win32-x64" "1.8.3"
+
+"@biomejs/cli-darwin-arm64@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-1.8.3.tgz#be2bfdd445cd2d3cb0ff41a96a72ec761753997c"
+  integrity sha512-9DYOjclFpKrH/m1Oz75SSExR8VKvNSSsLnVIqdnKexj6NwmiMlKk94Wa1kZEdv6MCOHGHgyyoV57Cw8WzL5n3A==
+
+"@biomejs/cli-darwin-x64@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-darwin-x64/-/cli-darwin-x64-1.8.3.tgz#47d408edd9f5c04069fbcf8610bacf1db8c6c0d9"
+  integrity sha512-UeW44L/AtbmOF7KXLCoM+9PSgPo0IDcyEUfIoOXYeANaNXXf9mLUwV1GeF2OWjyic5zj6CnAJ9uzk2LT3v/wAw==
+
+"@biomejs/cli-linux-arm64-musl@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-1.8.3.tgz#44df284383d57cf4f28daeedd080dad7be05df78"
+  integrity sha512-9yjUfOFN7wrYsXt/T/gEWfvVxKlnh3yBpnScw98IF+oOeCYb5/b/+K7YNqKROV2i1DlMjg9g/EcN9wvj+NkMuQ==
+
+"@biomejs/cli-linux-arm64@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-arm64/-/cli-linux-arm64-1.8.3.tgz#6a6b1da1dfce0294a028cbb5d6c40d73691dd713"
+  integrity sha512-fed2ji8s+I/m8upWpTJGanqiJ0rnlHOK3DdxsyVLZQ8ClY6qLuPc9uehCREBifRJLl/iJyQpHIRufLDeotsPtw==
+
+"@biomejs/cli-linux-x64-musl@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-1.8.3.tgz#ceef30a8ee1a00d4ad31e32dd31ba2a661f2719d"
+  integrity sha512-UHrGJX7PrKMKzPGoEsooKC9jXJMa28TUSMjcIlbDnIO4EAavCoVmNQaIuUSH0Ls2mpGMwUIf+aZJv657zfWWjA==
+
+"@biomejs/cli-linux-x64@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-x64/-/cli-linux-x64-1.8.3.tgz#665df74d19fb8f83001a9d80824d3a1723e2123f"
+  integrity sha512-I8G2QmuE1teISyT8ie1HXsjFRz9L1m5n83U1O6m30Kw+kPMPSKjag6QGUn+sXT8V+XWIZxFFBoTDEDZW2KPDDw==
+
+"@biomejs/cli-win32-arm64@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-arm64/-/cli-win32-arm64-1.8.3.tgz#0fb6f58990f4de0331a6ed22c47c66f5a89133cc"
+  integrity sha512-J+Hu9WvrBevfy06eU1Na0lpc7uR9tibm9maHynLIoAjLZpQU3IW+OKHUtyL8p6/3pT2Ju5t5emReeIS2SAxhkQ==
+
+"@biomejs/cli-win32-x64@1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-x64/-/cli-win32-x64-1.8.3.tgz#6a9dc5a4e13357277da43c015cd5cdc374035448"
+  integrity sha512-/PJ59vA1pnQeKahemaQf4Nyj7IKUvGQSc3Ze1uIGi+Wvr1xF7rGobSrAAG01T/gUDG21vkDsZYM03NAmPiVkqg==
+
 "@next/env@13.1.6":
   version "13.1.6"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.1.6.tgz#c4925609f16142ded1a5cb833359ab17359b7a93"
@@ -135,6 +189,11 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
+husky@^9.1.4:
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-9.1.4.tgz#926fd19c18d345add5eab0a42b2b6d9a80259b34"
+  integrity sha512-bho94YyReb4JV7LYWRWxZ/xr6TtOTt8cMfmQ39MQYJ7f/YE268s3GdghGwi+y4zAeqewE5zYLvuhV0M0ijsDEA==
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -181,6 +240,11 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
+pinst@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pinst/-/pinst-3.0.0.tgz#80dec0a85f1f993c6084172020f3dbf512897eec"
+  integrity sha512-cengSmBxtCyaJqtRSvJorIIZXMXg+lJ3sIljGmtBGUVonMnMsVJbnzl6jGN1HkOWwxNuJynCJ2hXxxqCQrFDdw==
 
 postcss@8.4.14:
   version "8.4.14"

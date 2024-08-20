@@ -21,7 +21,9 @@ This example is a [NextJS](https://nextjs.org/) todo app that uses
 - NextJS
 - Postgres
 - TypeScript
-
+- Biome
+- Husky
+  
 ## 💁‍♀️ How to use
 
 - [Provision a Postgres container on Railway](https://dev.new)
