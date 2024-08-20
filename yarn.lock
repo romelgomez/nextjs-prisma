@@ -236,6 +236,11 @@ next@13.1.6:
     "@next/swc-win32-ia32-msvc" "13.1.6"
     "@next/swc-win32-x64-msvc" "13.1.6"
 
+npm-check-updates@^17.0.6:
+  version "17.0.6"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-17.0.6.tgz#55f6b89cb5ef03bc42a00e359a90c21c7b057829"
+  integrity sha512-KCiaJH1cfnh/RyzKiDNjNfXgcKFyQs550Uf1OF/Yzb8xO56w+RLpP/OKRUx23/GyP/mLYwEpOO65qjmVdh6j0A==
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
